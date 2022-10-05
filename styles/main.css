@@ -1,0 +1,336 @@
+:root {
+    --hero-color: #575def;
+    --hero-font-color: #ffff;
+    --reg-font: #000000;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+header {
+    background: rgba(86, 93, 239, 0.5);
+    color: var(--hero-font-color);
+    /*background-color: beige;*/
+    height: 230px;
+    font-size: 20px;
+    display: flex;
+}
+
+div.logo {
+    /*background-color: pink;*/
+    padding: 18px;
+}
+
+div.hero {
+    display: flex;
+    color: var(--hero-font-color);
+    align-items: center;
+    flex-direction: column;
+    background: rgba(86, 93, 239, 0.5);
+    height: 432px;
+}
+nav.menu-bar {
+    margin-left: auto;
+    /*background-color: fuchsia;*/
+}
+
+ul.menu-items {
+    padding-right: 50px;
+    /*background-color: forestgreen;*/
+    color: var(--hero-font-color);
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0;
+}
+
+ul.service-items {
+    /*background-color: forestgreen;*/
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    font-style: normal;
+    color: #393737;
+    padding-left: 145px;
+    padding-right: 134px;
+    max-width: 50%;
+}
+
+li {
+    padding: 10px;
+}
+
+a.menu-link {
+    color: var(--hero-font-color);
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48.5714px;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Shippori Antique B1', sans-serif;
+    /*background-color: red;*/
+}
+
+div.about-left-square {
+    height: 568px;
+    width: 50vw;
+    background-color: #f8f0e3;
+}
+
+div.about-right-square {
+    height: 568px;
+    width: 50vw;
+    background: rgba(242, 246, 26, 0.4);
+    display: flex;
+    justify-content: center;
+}
+
+div.service-left-square {
+    height: 568px;
+    width: 50vw;
+    background: rgba(235, 66, 106, 0.4);
+    display: flex;
+    justify-content: center;
+}
+
+div.service-right-square {
+    height: 568px;
+    width: 50vw;
+    background-color: #f8f0e3;
+}
+
+h2.about-experience {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    padding-left: 120px;
+    padding-top: 128px;
+    margin: 0;
+    color: var(--reg-font);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    padding-left: 120px;
+    padding-top: 128px;
+    margin: 0;
+    color: var(--reg-font);
+}
+
+#tv-screen {
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 50px;
+    /*background-color: blue;*/
+}
+
+#soldering-iron {
+    height: 375px;
+    width: 367px;
+    padding-left: 181px;
+    padding-top: 88px;
+    padding-right: 164px;
+    padding-bottom: 113px;
+    align-items: center;
+}
+
+div.about {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    align-items: center;
+    display: flex;
+    flex: 1 1 0px;
+}
+
+p.about-experience-paragraph {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    font-style: normal;
+    color: #393737;
+    padding-left: 120px;
+    padding-right: 134px;
+    max-width: 50%;
+}
+
+a.box-link {
+    text-align: center;
+    text-decoration: none;
+    padding-left: 120px;
+    padding-right: 134px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+div.services {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    align-items: center;
+    display: flex;
+    flex: 1 1 0px;
+}
+
+div.location-container {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    align-items: center;
+    display: flex;
+    flex: 1 1 0px;
+}
+
+#oscope {
+    height: 375px;
+    width: 367px;
+    padding-left: 181px;
+    padding-top: 88px;
+    padding-right: 164px;
+    padding-bottom: 113px;
+    align-items: center;
+}
+
+div.location-left-square {
+    height: 568px;
+    width: 50vw;
+    background-color: #f8f0e3;
+}
+
+div.location-right-square {
+    height: 568px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    background: rgba(87, 93, 239, 0.5);
+}
+
+p.address-hours-text {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    font-style: normal;
+    color: #393737;
+    padding-left: 120px;
+    padding-right: 134px;
+    max-width: 50%;
+}
+
+div.intake-form-section {
+    width: 100vw;
+    height: 1440px;
+    background: rgba(87, 239, 102, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.intake-form {
+    box-sizing: border-box;
+    width: 832px;
+    height: 799px;
+    background: #ffffff;
+    border: 1px solid;
+    /* Cards/Short Default */
+    box-shadow: 0px 5px 16px rgba(8, 15, 52, 0.06);
+    border-radius: 34px;
+}
+
+h3 {
+    text-align: center;
+}
+
+p.intake-form-subheader {
+    text-align: center;
+}
+
+p.name-header {
+    padding-left: 64px;
+    padding-top: 64px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+
+    /* Neutral/800 */
+    color: #170f49;
+}
+
+p.problem-header {
+    padding-top: 64px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+
+    /* Neutral/800 */
+    color: #170f49;
+}
+#name {
+    border-radius: 46px;
+    display: flex;
+    text-align: center;
+    margin-left: 64px;
+    border: 1px solid #eff0f7;
+    /* Input/Default */
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 46px;
+}
+
+#problem-description {
+    border-radius: 46px;
+    height: 485px;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    border: 1px solid #eff0f7;
+    /* Input/Default */
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 46px;
+}
+
+div.intake-form-left {
+    width: 50%;
+    float: left;
+    margin: 0;
+}
+div.intake-form-right {
+    width: 50%;
+    float: right;
+    margin: 0;
+}
+
+footer {
+    background-color: #f8f0e3;
+    text-align: center;
+}
+
+#facebook {
+    width: 50px;
+    height: 50px;
+}
+
+#instagram {
+    width: 50px;
+    height: 50px;
+}
