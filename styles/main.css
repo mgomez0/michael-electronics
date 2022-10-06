@@ -86,13 +86,14 @@ h1 {
 
 div.about-left-square {
     height: 568px;
-    width: 50vw;
+    /*width: 50vw;*/
+    flex: 50%;
     background-color: #f8f0e3;
 }
 
 div.about-right-square {
     height: 568px;
-    width: 50vw;
+    flex: 50%;
     background: rgba(242, 246, 26, 0.4);
     display: flex;
     justify-content: center;
@@ -100,7 +101,7 @@ div.about-right-square {
 
 div.service-left-square {
     height: 568px;
-    width: 50vw;
+    flex: 50%;
     background: rgba(235, 66, 106, 0.4);
     display: flex;
     justify-content: center;
@@ -108,7 +109,7 @@ div.service-left-square {
 
 div.service-right-square {
     height: 568px;
-    width: 50vw;
+    flex: 50%;
     background-color: #f8f0e3;
 }
 
@@ -209,13 +210,13 @@ div.location-container {
 
 div.location-left-square {
     height: 568px;
-    width: 50vw;
+    flex: 50%;
     background-color: #f8f0e3;
 }
 
 div.location-right-square {
     height: 568px;
-    width: 50vw;
+    flex: 50%;
     display: flex;
     justify-content: center;
     background: rgba(87, 93, 239, 0.5);
@@ -244,12 +245,14 @@ div.intake-form-section {
 div.intake-form {
     box-sizing: border-box;
     width: 832px;
-    height: 799px;
+    height: 950px;
     background: #ffffff;
     border: 1px solid;
     /* Cards/Short Default */
     box-shadow: 0px 5px 16px rgba(8, 15, 52, 0.06);
     border-radius: 34px;
+    display: flex;
+    flex-direction: column;
 }
 
 h3 {
@@ -309,15 +312,26 @@ p.problem-header {
     border-radius: 46px;
 }
 
+div.intake-form-top {
+    width: 100%;
+}
+
+div.intake-form-body {
+    display: flex;
+    flex-direction: row;
+}
 div.intake-form-left {
-    width: 50%;
-    float: left;
+    flex: 50%;
     margin: 0;
 }
 div.intake-form-right {
-    width: 50%;
-    float: right;
+    flex: 50%;
     margin: 0;
+}
+
+div.intake-form-bottom {
+    text-align: center;
+    padding-top: 100px;
 }
 
 footer {
@@ -333,4 +347,23 @@ footer {
 #instagram {
     width: 50px;
     height: 50px;
+}
+
+div.panels {
+    display: flex;
+}
+
+@media only screen and (max-width: 900px) {
+    div.about {
+        /* it place the items in vertical direction */
+        flex-direction: column;
+    }
+
+    div.services {
+        flex-direction: column;
+    }
+
+    div.location-container {
+        flex-direction: column;
+    }
 }
